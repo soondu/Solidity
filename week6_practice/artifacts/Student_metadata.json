@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "schoolName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6_practice/inheritance.sol": "Student"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6_practice/inheritance.sol": {
+			"keccak256": "0x25f062aa52361ce0cc651ba96335d79ad32a73e9a3da72ae970b79c6e557da65",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0c540de320c1391da886d32e5dd60caa1cd04aa8cdf0824270859c9bb06c66c4",
+				"dweb:/ipfs/QmR6ZAkKs9fEMQNfhiHg8GPNZswJjrfLgT96pnx6e5ozht"
+			]
+		}
+	},
+	"version": 1
+}

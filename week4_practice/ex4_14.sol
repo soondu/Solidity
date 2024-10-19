@@ -6,5 +6,3 @@ contract Ex4_14 {
         return a;
     }
 }
-
-
