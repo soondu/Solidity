@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_point",
+						"type": "uint256"
+					}
+				],
+				"name": "pointUpWithCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_point",
+						"type": "uint256"
+					}
+				],
+				"name": "pointUpWithDeleteCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week8/delegate.sol": "UserInfo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week8/delegate.sol": {
+			"keccak256": "0xc6d18227482bf2cb83d24b37fef12a6433d35974bc9d8017b21619227ebcf4c5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://28657ca7fa98e0d626d8c7bb803216c1bf2e2ff3d49489bb6b77275e1e951b4a",
+				"dweb:/ipfs/QmVYKZxTCApywQV7pNFTf2jkXo2PgpoSqmrSWQ6RhtcqtC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,10 +6,34 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "changeSchoolName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depart",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -27,7 +51,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "schoolName",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -36,6 +60,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "setDepart",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -67,11 +104,11 @@
 	},
 	"sources": {
 		"week6_practice/inheritance.sol": {
-			"keccak256": "0x25f062aa52361ce0cc651ba96335d79ad32a73e9a3da72ae970b79c6e557da65",
+			"keccak256": "0xa8c41e731c059fd8d748754c7768da3ded35bbccded8777e8a938e6933021bff",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0c540de320c1391da886d32e5dd60caa1cd04aa8cdf0824270859c9bb06c66c4",
-				"dweb:/ipfs/QmR6ZAkKs9fEMQNfhiHg8GPNZswJjrfLgT96pnx6e5ozht"
+				"bzz-raw://2925f92dbcd7bdc8e188556df23c7924cf439c27300098f8969bf5666846850e",
+				"dweb:/ipfs/QmcYTu8uwUDkbS4vGHTmfWQwnJUjAMbmW2rgu7vxPNix7C"
 			]
 		}
 	},

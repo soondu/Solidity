@@ -48,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week4~5_practice/ex4_18.sol": "Ex4_18"
+			"week4_practice/ex4_18.sol": "Ex4_18"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -62,7 +62,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"week4~5_practice/ex4_18.sol": {
+		"week4_practice/ex4_18.sol": {
 			"keccak256": "0xf8c6f9024993c4a4d9a16604ab9e05614b67243441a7ccfcf09a4153e76ae796",
 			"license": "GPL-3.0",
 			"urls": [

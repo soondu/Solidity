@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week4~5_practice/ex4_20.sol": "Ex4_20"
+			"week4_practice/ex4_20.sol": "Ex4_20"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -64,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week4~5_practice/ex4_20.sol": {
-			"keccak256": "0xe9def399d6c5c9baa21de4b8dcf149536ccc204be78e7b19b3b19073a90f6aa9",
+		"week4_practice/ex4_20.sol": {
+			"keccak256": "0xafa992d23b0c410f63e6f951db6eab08a95553484a602e0a7c381a468c9690d2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ebf548257ba55d54dcadd0e82b98da9470431263b1a2ca5907b9ec762e73ae1f",
-				"dweb:/ipfs/QmeSEArqjK6GRnxdKEto7et1C2ndbyUvCGP1mqPY2rJtcU"
+				"bzz-raw://495f2c57652c99defedbe5acc0085abdb4ea10cea4cc57a662d35ae62c235aa6",
+				"dweb:/ipfs/QmXCyCMHAHD9d1AXZ2FyJJW9or18qTXG8gPfSqD3oRxWWw"
 			]
 		}
 	},

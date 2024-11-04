@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "res",
+						"type": "uint256"
+					}
+				],
+				"name": "updateNum",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "doWhile",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "res",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6_practice/stateVar.sol": "varType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6_practice/stateVar.sol": {
+			"keccak256": "0xa305085e66177ac209dbfe78385e881d475b5981e29963a6abda00b6b05ec2ae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://92936e94f597ca5d3afef617f0c7cffe8f112b5ac627b2ea4d1f11872871aeae",
+				"dweb:/ipfs/QmWgPzLCH3S6Vs4gQAAHu33D5SwH2r7VscdBdjLwf7vdde"
+			]
+		}
+	},
+	"version": 1
+}

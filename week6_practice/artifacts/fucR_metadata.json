@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6_practice/fucReturns.sol": "fucR"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6_practice/fucReturns.sol": {
+			"keccak256": "0x49638cf6bb9da2971866f3ffcb0c72f6356cd0c659203291da83f174ded660a1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://acd80a811d405998d508d10a7924f75809d688d8e8bc57fa8f4e1e2ce2a6f77e",
+				"dweb:/ipfs/QmenCPnJg964NfKHdrofvTDboSytTciPKyv7y4m1sedXCz"
+			]
+		}
+	},
+	"version": 1
+}

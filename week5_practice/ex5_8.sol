@@ -14,6 +14,10 @@ contract Ex5_8 {
     function getHuman1() public view returns(Human memory){
         return human1;
     }
+    
+    function getName(Human calldata h) public pure returns(string memory){
+        return h.name;
+    }
     function getHuman2() public view returns(Human memory){
         return human2;
     }

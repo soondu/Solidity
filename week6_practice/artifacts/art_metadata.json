@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6_practice/arithmetic.sol": "art"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6_practice/arithmetic.sol": {
+			"keccak256": "0xa6f826bd57a818e8a5d60e684135ea906d315b55a2e215028ec713c3dea68525",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f08d7b0715f1e4ad540a60f0add5d342061655b389cdca2a7e2700263b1c9214",
+				"dweb:/ipfs/QmfXmEQx1D8Figc7a8B9hjUfoRU52RWKqUX5kKd9wX7oiv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -16,6 +16,7 @@ contract NameRegistry{
     //등록하려는 정보는 등록한 소유자만 변경
     //등록된 컨트랙트의 이름을 매개변수로 받아서
     //등록된 컨트랙트 정보를 변경하려는 호출자가 등록된 컨트랙트의 소유자인지 확인
+    
     modifier onlyOwner(string memory _name){
         require(registeredContracts[_name].contractOwner==msg.sender, "You are not the owner.");
         _; // Owner가 본인인지 확인. 정보를 변경!하려면 확인해야함.

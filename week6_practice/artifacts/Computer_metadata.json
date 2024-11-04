@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getN",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6_practice/abstract.sol": "Computer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6_practice/abstract.sol": {
+			"keccak256": "0x8e7caf71ab460af1a4e9eb70faf4e51ce46b9aed7eec70cd92b5f7085c84ac07",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1ddf41ff81c2ba3c0ee57040eecc774a8ab5e64a9cce565306afb56893866db2",
+				"dweb:/ipfs/QmdvLjWWKYiLXVM5UMov4ha9rcf8NjZ4HjCyDoFD5W3Tyq"
+			]
+		}
+	},
+	"version": 1
+}
