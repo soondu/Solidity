@@ -35,7 +35,7 @@ contract NameRegistry{
         numContracts--;
     }
 
-    //컨트랙트 소유자 변경
+    //ContractInfo의 소유자만 컨트랙트 소유자 변경
     function changeOwner(string memory _name, address _newOwner) public onlyOwner(_name){
         registeredContracts[_name].contractOwner=_newOwner; //Owner만 _name의 contract에서 owner변경
     }
@@ -44,7 +44,7 @@ contract NameRegistry{
         return registeredContracts[_name].contractOwner;
     }
     
-    //컨트랙트 address 변경
+    //ContractInfo의 소유자만 컨트랙트 address 변경
     function setAddr(string memory _name, address _addr) public onlyOwner(_name){
         registeredContracts[_name].contractAddress=_addr; //Owner만 _name의 contract에서 address변경
     }
@@ -53,7 +53,7 @@ contract NameRegistry{
         return registeredContracts[_name].contractAddress;
     }
 
-    //컨트랙트 description 변경
+    //ContractInfo의 소유자만 컨트랙트 description 변경
     function setDescription(string memory _name, string memory _desc) public onlyOwner(_name){
         registeredContracts[_name].description=_desc; //Owner만 _name의 contract에서 description변경
     }
