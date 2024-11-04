@@ -19,15 +19,15 @@ contract crowdFunding{
 
     modifier onlyOwner{
         require(msg.sender==owner, "Error: caller is not the owner");
-        _;
+        _; //배포자만 가능
     }
     constructor(uint _duration, uint _goalAmount){
-        owner=msg.sender;
-        deadline=block.timestamp+_duration;
-        goalAmount=_goalAmount * 1 ether;
+        owner=msg.sender; //배포자의 주소
+        deadline=block.timestamp+_duration; //현재 시각+지속시간(초)
+        goalAmount=_goalAmount * 1 ether; //이더 단위
         status="Funding";
 
-        ended=false;
+        ended=false; //초기화
         numInvestors=0;
         totalAmount=0;
     }
@@ -35,8 +35,7 @@ contract crowdFunding{
     function fund() public payable {
         require(!ended, "Funding is over."); //모금이 끝났다면 처리 중단
         
-        investors[numInvestors]=Investor(msg.sender, msg.value); //투자자정보를 매핑에 저장
-        numInvestors++;
+        investors[numInvestors++]=Investor(msg.sender, msg.value); //투자자 정보를 매핑에 저장
         totalAmount+=msg.value; //투자 총액 업데이트
     }
 
@@ -44,11 +43,11 @@ contract crowdFunding{
         require(block.timestamp>=deadline, "Funding is not over yet."); //end아니면 처리 중단
 
         if(totalAmount>=goalAmount){ //모금액 달성 시
-            status="Campaign Succedded";
+            status="Campaign Succeded";
             payable(owner).transfer(totalAmount);
         } // 소유자에게 모든 이더 송금
         else{
-            status="Campaign Failed";
+            status="Campaign Failed"; //모금 실패 시
             for(uint i=0;i<numInvestors;i++){
                 payable(investors[i].addr).transfer(investors[i].amount);
             } //각 투자자에게 투자금 돌려줌
